@@ -32,7 +32,7 @@ class Gravatar {
 	public function __construct($string="")
 	{
 		if($this->ci_use)
-		{//On instancie la super variable CodeIgniter pour pouvoir utiliser les fonctionnalités de CI dans la library
+		{
 			$CI =& get_instance();
 		}
 		
